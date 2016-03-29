@@ -10,31 +10,26 @@ the file system. Obviously, if you intend your web pages to be viewed by others,
 make them available over a network. The software used for exposing web pages over a net-
 work is a web server.
 
-#### 读到书中的这里，你已经可以在文件系统中直接使用浏览器打开网页了。很明显，如果你打算让你的网页被别人浏览到，
-你需要把这些网页放在一个可以访问的网络上。网络服务器就是一个用于在网络上暴露网页的软件！
+#### 读到书中的这里，你已经可以在文件系统中直接使用浏览器打开网页了。很明显，如果你打算让你的网页被别人浏览到，你需要把这些网页放在一个可以访问的网络上。网络服务器就是一个用于在网络上暴露网页的软件！
 
 
 #### The term “web server” can either denote the hardware of the underlying server or the software
 running on that server. For the purposes of this lesson, the term “web server” will be used to
 denote the software, whereas “server” will be used to denote the hardware this software runs
 on.
-#### 这个术语“网络服务器” 既可以表示底层服务器的硬件，也可以表示运行在服务器上的软件。
-基于本课的目的，这个术语“网络服务器” 将会被用于指代软件，反之“服务器”将会被用于指代运行该软件的硬件。
+#### 这个术语“网络服务器” 既可以表示底层服务器的硬件，也可以表示运行在服务器上的软件。基于本课的目的，这个术语“网络服务器” 将会被用于指代软件，反之“服务器”将会被用于指代运行该软件的硬件。
 
 #### The primary purpose of a web server is to expose a set of resources from the file system of a
 network enabled server via protocols such as HTTP and HTTPS. Resources are typically files
 such as HTML pages, images, and CSS files, to video and audio files.
 
-#### 一个网络服务器的首要目的就是通过HTTP,HTTPS之类的网络协议，暴露一组位于以启用网络服务的服务器的文件系统上的资源。
-资源都是典型的文件，例如 HTML页面，图片，CSS文件，音频和视频文件。
+#### 一个网络服务器的首要目的就是通过HTTP,HTTPS之类的网络协议，暴露一组位于以启用网络服务的服务器的文件系统上的资源。这些资源都是典型的文件，例如 HTML页面，图片，CSS文件，音频和视频文件。
 
     NOTE  This view is slightly simplistic because many resources in real-world web
     applications are dynamically generated and therefore do not exist on a physical
     file system, but you will ignore this complication for the most part.
 
-    注释 这个观点是稍微简单化的，毕竟在真实世界里的网络应用程序的很多资源是动态生成的，
-    因此不存在一个物理的文件系统，然而大多数情况下你将会忽略复杂的大部分。
-    （然而你将会忽略它复杂的大部分。）
+    注释 这个观点是稍微简单化的，毕竟在真实世界里的网络应用程序的很多资源是动态生成的，因此不存在一个物理的文件系统，然而大多数情况下你将会忽略复杂的部分。(然而你将会忽略它复杂的大部分。)
 ...
 ...
 
