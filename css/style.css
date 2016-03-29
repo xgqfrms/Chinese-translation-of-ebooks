@@ -1,0 +1,153 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color: #F3DDB6;
+	margin:30px 100px;
+	border:1px solid red;
+}
+
+.img_diamond{
+	width: 100px;
+	height: 100px;
+	background-color: #00ff00;
+	/*border-radius: 50px;*/
+}
+.container{
+	background-color: #33aa33;
+	clear: both;
+}
+
+.i_header{
+	float: left;
+	background-color: #000000;
+}
+.i_header a{
+	color: #ffffff;
+}
+.h_logo{
+	float: left;
+}
+.h_n_link{
+	float: left;
+	margin:50px 100px;
+	color: #00ff00;
+}
+.img_arrow{
+	/*background: url(../images/arrow.png);*/
+	margin-bottom: -14px;
+}
+.h_l_link{
+	float: left;
+	margin:50px 100px 50px 424px ;
+	font-size: 14px;
+	color: #ff0000;
+}
+
+
+
+
+
+/*register*/
+
+.container_register{
+	background-color: #abcdef;
+}
+
+.container_register.a_link{
+	background-color: #ff0000;
+}
+.container_register.login_form{
+	background-color: #00ff00;
+}
+
+.readme_items{
+	/*scroll-behavior: smooth;*/
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*login*/
+.l_header{
+	background-color: #000000;
+	overflow: hidden;
+}
+.h_logo{
+	background-color: #f0f0f0;
+}
+.l_header .L_float{
+	float: left;
+	margin-right: 10px;
+}
+.l_header .ll_link a{
+	font-size: 14px;
+	color: #ff0000;
+}
+.container_login{
+	background-color: #abcdef;
+	clear: both;
+}
+.container_login .a_link{
+	background-color: #ff0000;
+}
+.container_login .login_form{
+	background-color: #00ff00;
+}
+
+.a_no_decorate{
+	text-decoration: none;
+	font-size: 23px;
+	/*color: #00ff00;*/
+}
+.login_button{
+	border-radius: 10px;
+}
+.l_button .b__decorate{
+    border-radius: 5px;
+}
+.tips_un_editable{
+	/**/
+}
+.all_validation{
+	border: 1px solid #f0cc0f;
+	border-radius: 12px;
+	/*display: none;*/
+	/*display: none; 不影响html结构*/
+	/*visibility: hidden;*/
+	/*visibility: hidden;影响html结构，出现空白div*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*index*/
+
+
+
+
+
+
+/*compact*/
