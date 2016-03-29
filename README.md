@@ -32,27 +32,27 @@
 
 ## Part 2:
 
-### LESSON 11: [Read LESSON 11:]()
+### LESSON 11: javascript [Read LESSON 11:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-2/LESSON%2011.md)
 
-### LESSON 12: [Read LESSON 12:]()
+### LESSON 12: debugging [Read LESSON 12:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-2/LESSON%2012.md)
 
-### LESSON 13: [Read LESSON 13:]()
+### LESSON 13: functions [Read LESSON 13:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-2/LESSON%2013.md)
 
-### LESSON 14: [Read LESSON 14:]()
+### LESSON 14: objects [Read LESSON 14:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-2/LESSON%2014.md)
 
-### LESSON 15: [Read LESSON 15:]()
+### LESSON 15: json [Read LESSON 15:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-2/LESSON%2015.md)
 
-### LESSON 16: [Read LESSON 15:]()
+### LESSON 16: document object model(DOM) [Read LESSON 15:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-2/LESSON%2016.md)
 
-### LESSON 17: [Read LESSON 17:]()
+### LESSON 17: Jquery selection [Read LESSON 17:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-2/LESSON%2017.md)
 
-### LESSON 18: [Read LESSON 18:]()
+### LESSON 18: Jquery traversal and manipulation [Read LESSON 18:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-2/LESSON%2018.md)
 
-### LESSON 19: [Read LESSON 19:]()
+### LESSON 19: Jquery events [Read LESSON 19:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-2/LESSON%2019.md)
 
-### LESSON 20: [Read LESSON 20:]()
+### LESSON 20: data attributes and templates [Read LESSON 20:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-2/LESSON%2020.md)
 
-### LESSON 21: [Read LESSON 21:]()
+### LESSON 21: jquery plugins [Read LESSON 21:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-2/LESSON%2021.md)
 
 
 ***
