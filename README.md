@@ -61,19 +61,19 @@
 ## Part 3:
 
 
-### LESSON 22: [Read LESSON 22:]()
+### LESSON 22: HTML5 audio [Read LESSON 22:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-3/LESSON%2022.md)
 
-### LESSON 23: [Read LESSON 23:]()
+### LESSON 23: HTML5 video [Read LESSON 23:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-3/LESSON%2023.md)
 
-### LESSON 24: [Read LESSON 24:]()
+### LESSON 24: Canvas: Part 1 [Read LESSON 24:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-3/LESSON%2024.md)
 
-### LESSON 25: [Read LESSON 25:]()
+### LESSON 25: Canvas: Part 2 [Read LESSON 25:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-3/LESSON%2025.md)
 
-### LESSON 26: [Read LESSON 26:]()
+### LESSON 26: CSS3: Part 1 [Read LESSON 26:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-3/LESSON%2026.md)
 
-### LESSON 27: [Read LESSON 27:]()
+### LESSON 27: CSS3: Part 2 [Read LESSON 27:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-3/LESSON%2027.md)
 
-### LESSON 28: [Read LESSON 28:]()
+### LESSON 28: CSS3: Media Queries [Read LESSON 28:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-3/LESSON%2028.md)
 
 
 ***
@@ -81,7 +81,7 @@
 
 ## Part 4:
 
-### LESSON 29: [Read LESSON 29:]()
+### LESSON 29: [Read LESSON 29:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-4/LESSON%2029.md)
 
 ### LESSON 30: [Read LESSON 30:]()
 
