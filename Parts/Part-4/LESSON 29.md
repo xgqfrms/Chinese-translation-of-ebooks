@@ -22,7 +22,7 @@
     applications are dynamically generated and therefore do not exist on a physical
     file system, but you will ignore this complication for the most part.
 
-    注释 这个观点是稍微简单化的，毕竟在真实世界里的网络应用程序的很多资源是动态生成的，
+    **注释** 这个观点是稍微简单化的，毕竟在真实世界里的网络应用程序的很多资源是动态生成的，
     因此不存在一个物理的文件系统，然而大多数情况下你将会忽略复杂的部分。
     (然而你将会忽略它复杂的大部分。)
 ...
