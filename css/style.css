@@ -132,8 +132,12 @@ body{
 	/*visibility: hidden;影响html结构，出现空白div*/
 }
 
-
-
+.a_img{
+	width:227px;
+	height:285px;
+	border-radius: 5px;
+	border: 1px solid red;
+}
 
 
 
