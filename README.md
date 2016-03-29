@@ -103,13 +103,13 @@
 
 ## Part 5:
 
-### LESSON 37: [Read LESSON 37:]()
+### LESSON 37: Responsive Web Design [Read LESSON 37:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-5/LESSON%2037.md)
 
-### LESSON 38: [Read LESSON 38:]()
+### LESSON 38: Location API [Read LESSON 38:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-5/LESSON%2038.md)
 
-### LESSON 39: [Read LESSON 39:]()
+### LESSON 39: Jquery Mobile: Part 1 [Read LESSON 39:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-5/LESSON%2039.md)
 
-### LESSON 40: [Read LESSON 40:]()
+### LESSON 40: Jquery Mobile: Part 2 [Read LESSON 40:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-5/LESSON%2040.md)
 
 ***
 ***
