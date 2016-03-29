@@ -16,13 +16,13 @@
 
 #### The primary purpose of a web server is to expose a set of resources from the file system of a network enabled server via protocols such as HTTP and HTTPS.Resources are typically files such as HTML pages, images, and CSS files, to video and audio files.
 
-#### 一个网络服务器的首要目的就是通过HTTP,HTTPS之类的网络协议，暴露一组位于以启用网络服务的服务器的文件系统上的资源。这些资源都是典型的文件，例如 HTML页面，图片，CSS文件，音频和视频文件。
+#### 一个网络服务器的首要目的就是通过HTTP,HTTPS之类的网络协议，暴露一组位于启用网络服务的服务器的文件系统上的资源。这些资源都是典型的文件，例如 HTML页面，图片，CSS文件，音频和视频文件。
 
     NOTE  This view is slightly simplistic because many resources in real-world web
     applications are dynamically generated and therefore do not exist on a physical
     file system, but you will ignore this complication for the most part.
 
-    **注释** 这个观点是稍微简单化的，毕竟在真实世界里的网络应用程序的很多资源是动态生成的，
+    注释 这个观点是稍微简单化的，毕竟在真实世界里的网络应用程序的很多资源是动态生成的，
     因此不存在一个物理的文件系统，然而大多数情况下你将会忽略复杂的部分。
     (然而你将会忽略它复杂的大部分。)
 ...
