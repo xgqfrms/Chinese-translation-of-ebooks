@@ -143,12 +143,24 @@ body{
 	height:50px;
 }
 .b_l_img2{
-	width:150px;
-	height:50px;
+	width:20%;
+	height:20%;
 }
 
+.pu{
+	float: left;
+	font-size: 16px;
+	color: #ffffff;
+	margin-left: 10px;
+	/*background: url(../images/paper_bg.png);*/
+}
 
-
+.pages_l{
+    background: url(../images/paper_bg.png);
+}
+.amazon_buy{
+	clear: both;
+}
 
 
 
