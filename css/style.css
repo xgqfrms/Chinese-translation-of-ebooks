@@ -34,103 +34,8 @@ body{
 	margin:50px 100px;
 	color: #00ff00;
 }
-.img_arrow{
-	/*background: url(../images/arrow.png);*/
-	margin-bottom: -14px;
-}
-.h_l_link{
-	float: left;
-	margin:50px 100px 50px 424px ;
-	font-size: 14px;
-	color: #ff0000;
-}
 
 
-
-
-
-/*register*/
-
-.container_register{
-	background-color: #abcdef;
-}
-
-.container_register.a_link{
-	background-color: #ff0000;
-}
-.container_register.login_form{
-	background-color: #00ff00;
-}
-
-.readme_items{
-	/*scroll-behavior: smooth;*/
-	display: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*login*/
-.l_header{
-	background-color: #000000;
-	overflow: hidden;
-}
-.h_logo{
-	background-color: #f0f0f0;
-}
-.l_header .L_float{
-	float: left;
-	margin-right: 10px;
-}
-.l_header .ll_link a{
-	font-size: 14px;
-	color: #ff0000;
-}
-.container_login{
-	background-color: #abcdef;
-	clear: both;
-}
-.container_login .a_link{
-	background-color: #ff0000;
-}
-.container_login .login_form{
-	background-color: #00ff00;
-}
-
-.a_no_decorate{
-	text-decoration: none;
-	font-size: 23px;
-	/*color: #00ff00;*/
-}
-.login_button{
-	border-radius: 10px;
-}
-.l_button .b__decorate{
-    border-radius: 5px;
-}
-.tips_un_editable{
-	/**/
-}
-.all_validation{
-	border: 1px solid #f0cc0f;
-	border-radius: 12px;
-	/*display: none;*/
-	/*display: none; 不影响html结构*/
-	/*visibility: hidden;*/
-	/*visibility: hidden;影响html结构，出现空白div*/
-}
 
 .a_img{
 	width:227px;
@@ -151,12 +56,15 @@ body{
 	float: left;
 	font-size: 16px;
 	color: #ffffff;
-	margin-left: 10px;
+	margin:10px 10px;
+    padding:10px;
 	/*background: url(../images/paper_bg.png);*/
 }
 
 .pages_l{
     background: url(../images/paper_bg.png);
+    margin:10px 50px;
+    padding:10px;
 }
 .amazon_buy{
 	clear: both;
@@ -165,12 +73,4 @@ body{
 
 
 
-
-/*index*/
-
-
-
-
-
-
-/*compact*/
+/*end*/
