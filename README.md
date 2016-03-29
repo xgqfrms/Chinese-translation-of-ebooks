@@ -10,21 +10,21 @@
 
 ### LESSON 2: basic HTML [Read LESSON 2:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-1/LESSON%2002.md)
 
-### LESSON 3: [Read LESSON 3:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/?)
+### LESSON 3: list and tables [Read LESSON 3:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-1/LESSON%2003.md)
 
-### LESSON 4: [Read LESSON 4:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/?)
+### LESSON 4: introduction to CSS [Read LESSON 4:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-1/LESSON%2004.md)
 
-### LESSON 5: [Read LESSON 5:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/?)
+### LESSON 5: structuring pages with CSS [Read LESSON 5:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-1/LESSON%2005.md)
 
-### LESSON 6: [Read LESSON 6:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/?)
+### LESSON 6: HTML forms [Read LESSON 6:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-1/LESSON%2006.md)
 
-### LESSON 7: [Read LESSON 7:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/?)
+### LESSON 7: semantic tags [Read LESSON 7:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-1/LESSON%2007.md)
 
-### LESSON 8: [Read LESSON 8:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/?)
+### LESSON 8: HTML5 validation [Read LESSON 8:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-1/LESSON%2008.md)
 
-### LESSON 9: [Read LESSON 9:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/?)
+### LESSON 9: drag and drop [Read LESSON 9:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-1/LESSON%2009.md)
 
-### LESSON 10: [Read LESSON 10:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/?)
+### LESSON 10: dynamic elements [Read LESSON 10:](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/Parts/Part-1/LESSON%2010.md)
 
 
 ***
