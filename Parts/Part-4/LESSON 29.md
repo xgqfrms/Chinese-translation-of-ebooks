@@ -179,48 +179,79 @@ Step-by-Step (OS X)
 
 1. Download the Free Edition OS X installer from:  http://cesanta.com/downloads.html .
 This requires you to accept the license agreement.
+1.下载免费版的 OS X安装包，从[http://cesanta.com/downloads.html]( http://cesanta.com/downloads.html) .
+这要求你接受许可协议。
 
-2. Once this has downloaded, double-click on the DMG fi le and drag it to Applications, just as
+2. Once this has downloaded, double-click on the DMG file and drag it to Applications, just as
 you would when installing any other application.
+2.一旦下载完成，双击这个DMG文件，并把它拖到应用程序中，就像当你安装其他应用程序一样。
 
 3. Open the Finder and navigate to the Applications folder. Find the Mongoose application, and
 double-click on the icon to start the Mongoose server.
+3. 打开Finder并且导航到应用程序文件夹。找到Mongoose应用程序，在小图标上双击来启动Mongoose网络服务器。
 
 4. The Mongoose application can now be configured via the icon in the taskbar at the top of the
 screen, as shown in Figure 29-1.
 [pic](url)
 4. 可以通过位于屏幕顶部任务栏上的小图标来配置Mongoose 应用程序，如图29-1中所示：
-[pic](url)
+[FIGURE 29-1](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/images/part%20img/p29-1.PNG)
 FIGURE 29-1
-5. Select the Edit confi guration option. This will open a browser window with the confi guration
-settings. Locate the  document_root text fi eld, and change the directory to the directory that
-contains the  contacts.html fi le. For example  /Users/dane/html5/CRM . Once entered,
-click “Save settings to the confi g fi le”.
+
+5. Select the Edit configuration option. This will open a browser window with the configuration
+settings. Locate the  document_root text field, and change the directory to the directory that
+contains the  contacts.html file. For example  /Users/dane/html5/CRM . Once entered,
+click “Save settings to the config file”.
+5.选择编辑配置选项。这将会打开一个包含配置设置的浏览器窗口。定位到document_root的文本字段，改变这个目录，
+使其包含contacts.html文件。例如 /Users/dane/html5/CRM 。一旦输入，点击“将设置保存到配置文件”。
+
 6. The Mongoose server operates by default on port 8080 rather than port 80. Because it is
 running on your local machine, you can also use the hostname  localhost . Therefore, to
 open the contacts page, open Chrome, and enter http://localhost:8080/contacts.html. This
 should show the main contacts web page.
+6. Mongoose 网络服务器运行在默认的8080端口，而不是80端口。因为它运行在你的本地机器上，你也可以使用主机名localhost。
+   因此，要想打开通信录网页，打开chrome输入http://localhost:8080/contacts.html. 这应显示主要联系人的网页。
+
 
 ...
 ...
 
 Step-by-Step (Windows)
+一步接一步
 
-1. Download the Free Edition OS X installer from  http://cesanta.com/downloads.html .
+1. Download the Free Edition Windows installer from  http://cesanta.com/downloads.html .
 This requires you to accept the license agreement.
-2. Once the download is complete, copy the  .exe fi le to the same directory that contains
+1.下载免费版的Windows安装包，从[http://cesanta.com/downloads.html]( http://cesanta.com/downloads.html) .
+这要求你接受许可协议。
+
+2. Once the download is complete, copy the  .exe file to the same directory that contains
 contacts.html .
+2.一旦下载完成，复制这个.exe文件到与contacts.html所在目录相同的目录下。
+
 3. Double-click on the executable to start Mongoose.
-4. The Mongoose application can now be confi gured via the icon in the taskbar at the bottom
-of the screen, as shown in Figure 29-2 (although no confi guration is required in this case).
+3.双击这个可执行文件，启动Mongoose。
+
+4. The Mongoose application can now be configured via the icon in the taskbar at the bottom
+of the screen, as shown in Figure 29-2 (although no configuration is required in this case).
 [pic](url)
+4.现在可以通过位于屏幕底部任务栏上的小图标来配置Mongoose 应用程序，如图29-2中所示：
+[Figure 29-2](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/images/part%20img/p29-2.PNG)
+Figure 29-2
+
 5. The Mongoose server operates by default on port 8080 rather than port 80. Because it is
 running on your local machine, you can also use the hostname  localhost . Therefore, to
 open the contacts page, open Chrome, and enter http://localhost:8080/contacts.html.
 This should show the main contacts web page.
-    REFERENCE  Please go to the book’s website at  [www.wrox.com/go/html5jsj-
-    query24hr](http://www.wrox.com/go/html5jsj-query24hrto)  to view the video for Lesson 29, as well as download the code and
-    resources for this lesson.
+5. Mongoose 网络服务器运行在默认的8080端口，而不是80端口。因为它运行在你的本地机器上，你也可以使用主机名localhost。
+   因此，要想打开通信录网页，打开chrome输入http://localhost:8080/contacts.html.
+
+    REFERENCE  Please go to the book’s website at  [www.wrox.com/go/html5jsj-query24hr](http://www.wrox.com/go/html5jsj-query24hrto) 
+	to view the video for Lesson 29, as well as download the code and resources for this lesson.
+	
+	参考 请访问这本书的网站，在[www.wrox.com/go/html5jsj-query24hr](http://www.wrox.com/go/html5jsj-query24hrto)，
+	观看Lesson 29的视频，也可以下载本课的源代码和相关资源。
+
+
+	
 ...
 ...
 
