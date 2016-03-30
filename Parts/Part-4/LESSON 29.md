@@ -188,7 +188,7 @@ double-click on the icon to start the Mongoose server.
 
 4. The Mongoose application can now be configured via the icon in the taskbar at the top of the
 screen, as shown in Figure 29-1.
-[pic](url)
+
 
 #### 4. 可以通过位于屏幕顶部任务栏上的小图标来配置Mongoose 应用程序，如图29-1中所示：
 ![FIGURE 29-1](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/images/part%20img/p29-1.PNG)
@@ -218,8 +218,7 @@ Step-by-Step (Windows)
 1. Download the Free Edition Windows installer from  http://cesanta.com/downloads.html .
 This requires you to accept the license agreement.
 
-#### 1.下载免费版的Windows安装包，从[http://cesanta.com/downloads.html]( http://cesanta.com/downloads.html) .
-这要求你接受许可协议。
+#### 1.下载免费版的Windows安装包，从[http://cesanta.com/downloads.html]( http://cesanta.com/downloads.html) .这要求你接受许可协议。
 
 2. Once the download is complete, copy the  .exe file to the same directory that contains
 contacts.html .
@@ -232,7 +231,7 @@ contacts.html .
 
 4. The Mongoose application can now be configured via the icon in the taskbar at the bottom
 of the screen, as shown in Figure 29-2 (although no configuration is required in this case).
-[pic](url)
+
 
 #### 4.现在可以通过位于屏幕底部任务栏上的小图标来配置Mongoose 应用程序，如图29-2中所示：
 ![Figure 29-2](https://github.com/xgqfrms/Chinese-translation-of-ebooks/blob/gh-pages/images/part%20img/p29-2.PNG)
