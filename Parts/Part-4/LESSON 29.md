@@ -30,16 +30,16 @@
 
 In this lesson, you will migrate the web application developed so far to a web server. You are
 doing this for two main reasons:
-➤
-To give you an understanding of how a web server works: Any web page or web
-application you develop will be uploaded eventually to a web server, so it is useful to
-gain some understanding of how they work, and how to confi gure one.
-➤
-Many of the APIs introduced in this section need to run inside web servers: The APIs
-included in this section will cover more advanced JavaScript APIs such as storing data
-inside the browser. These APIs therefore need a mechanism for segregating the data
-from different websites: Without this segregation, any website would be able to access
-data stored by any other website, which would obviously create a security loophole.
+  ➤
+   To give you an understanding of how a web server works: Any web page or web
+   application you develop will be uploaded eventually to a web server, so it is useful to
+   gain some understanding of how they work, and how to confi gure one.
+ ➤
+   Many of the APIs introduced in this section need to run inside web servers: The APIs
+   included in this section will cover more advanced JavaScript APIs such as storing data
+   inside the browser. These APIs therefore need a mechanism for segregating the data
+   from different websites: Without this segregation, any website would be able to access
+   data stored by any other website, which would obviously create a security loophole.
 
 ...
 ...
