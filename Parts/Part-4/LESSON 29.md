@@ -28,56 +28,84 @@
 ...
 ...
 
-In this lesson, you will migrate the web application developed so far to a web server. You are
-doing this for two main reasons:
-  ➤
-   To give you an understanding of how a web server works: Any web page or web
-   application you develop will be uploaded eventually to a web server, so it is useful to
-   gain some understanding of how they work, and how to confi gure one.
- ➤
-   Many of the APIs introduced in this section need to run inside web servers: The APIs
-   included in this section will cover more advanced JavaScript APIs such as storing data
-   inside the browser. These APIs therefore need a mechanism for segregating the data
-   from different websites: Without this segregation, any website would be able to access
-   data stored by any other website, which would obviously create a security loophole.
+In this lesson, you will migrate the web application developed so far to a web server. You are doing this for two main reasons:
 
+在本课，你将学会把到目前为止开发的网络应用程序迁移到一个网络服务器上。你这样做有两个主要原因：
+
+  ➤
+   To give you an understanding of how a web server works: Any web page or web application you develop will be uploaded eventually to a web server, so it is useful to gain some understanding of how they work, and how to configure one.
+  ➤
+   为了让你明白网络服务器是如何工作的：你开发的任何网页或网络应用程序最终都会被上传到一个网络服务器上，所以这是非常有用的对于你理解他们是如何工作的，以及如何配置一个网络服务器。
+  ➤ 
+   Many of the APIs introduced in this section need to run inside web servers: The APIs included in this section will cover more advanced JavaScript APIs such as storing data inside the browser.
+   These APIs therefore need a mechanism for segregating the data from different websites: Without this segregation, any website would be able to access data stored by any other website, which would obviously create a security loophole.
+  ➤
+   本节课介绍的很多API都需要运行在网络服务器中：本节课包含的这些API会涉及更高级的JavaScript API, 例如在浏览器中存储数据。
+   这些API因此需要一个机制用来隔离来自于不同网站的数据： 没有这种隔离机制，任何网站都可以访问到其他网站存储的数据，这明显会创造出一个安全漏洞。
 ...
 ...
 
 URLS
 Before looking at web servers, this lesson will quickly cover the related topic of URLs (Uniform
 Resource Locators). A URL provides a unique network address for a resource (image, web page,
-CSS fi le). The “network” will often be the public Internet, but URLs can also be used to locate
+CSS file). The “network” will often be the public Internet, but URLs can also be used to locate
 resources on private networks, such as your personal WiFi network at home.
+
+URLS(统一资源定位符)
+在了解网络服务器之前，本节课将会快速的介绍与URLs(统一资源定位符)相关的话题。一个URL为资源(图像，网页，CSS文件)提供了一个唯一的网络地址。
+这个“网络”通常是指互联网，但是 URLs也可以被用来访问位于私有网络上的资源，比如你家里的wifi网络。
+
+
+
 The web server is responsible for parsing the URL and determining the resource that should be
 returned. The URL is also used by lower-level protocols, however, to determine how to route the
 request to the appropriate server on the network.
+
+网络服务器是负责用来解析URL(网址)和决定什么样的资源应该被返回。网址也被用于一些低级的协议，然而，主要是为了确定如何将请求路由到位于网络上的适当的服务器上。
+
 URLs are surprisingly complex, but the most familiar pattern is as follows:
-http://testing.com:80/test1/test.html
+URLs 是非常复杂的，但是最常用的模式是下面这样的：
+    http://testing.com:80/test1/test.html
+    http://testing.com:80/test1/test.html
+
 This URL consists of the following components:
+这个URL包含以下几个部分：
 ➤
-http : The protocol that is being used to access the resource; other common protocols are
-https and  ftp .
+http : The protocol that is being used to access the resource; other common protocols are https and  ftp .
+
+http : 这个协议是被用于访问资源；其他常用的协议是https和ftp.
 ➤
 testing.com : The domain name resolved by the browser to an IP address using a Domain
-Name Server (DNS). The IP address (for instance 192.168.199.133) in turn maps to a server
-running on a network.
+Name Server (DNS). The IP address (for instance 192.168.199.133) in turn maps to a server running on a network.
+
+testing.com : 这个域名会被浏览器通过一个域名服务器解析成一个IP地址。
+这个IP地址(例如 192.168.199.133)会被映射到一个运行在网络上的服务器。
 ➤
 80 : The port number of the web server. Because a single server may expose multiple services
 (for example, an FTP server and an HTTP server), port numbers provide a mechanism to
 logically differentiate them. You will not usually see the port number in URLs because 80 is
 the default for the HTTP protocol, and 443 is the default for the HTTPS protocol, and the
 port number can therefore usually be omitted.
+
+80 : 这台网络服务器的端口号。由于一台独立的服务器可能会暴露多种服务(例如，一个FTP服务器和一个HTTP服务器)，
+端口号提供了一种机制用来在逻辑上区分它们。你通常不会在URL中看到端口号，
+因为80是HTTP协议默认的端口号，443是是HTTPS协议默认的端口号, 所以端口号通常会被省略掉。
+
 ➤
 test1 : The directory on the web server. Typically, the web server will map its root directory
-to a directory on the fi le system. In this case, there would be an assumption that this direc-
+to a directory on the file system. In this case, there would be an assumption that this direc-
 tory contains a subdirectory called  test1 .
+
+test1 : 网络服务器的目录。典型地，网络服务器会映射他的根目录到一个位于文件系统上的目录。
+在本例中，假设这个根目录下有一个名为test的子目录。
+
 ➤
 test.html : The name of the resource being accessed.
 The two most important components used by the APIs in this section are the domain name and the
 port. These are referred to as the “origin” of a resource. Typically, a resource will only be able to
 interact with resources or information from the same origin: This is referred to as the same origin
 policy.
+
 
 ...
 ...
