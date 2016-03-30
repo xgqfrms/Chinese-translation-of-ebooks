@@ -101,61 +101,97 @@ test1 : 网络服务器的目录。典型地，网络服务器会映射他的根
 
 ➤
 test.html : The name of the resource being accessed.
+
 The two most important components used by the APIs in this section are the domain name and the
 port. These are referred to as the “origin” of a resource. Typically, a resource will only be able to
 interact with resources or information from the same origin: This is referred to as the same origin
 policy.
 
+test.html : 被访问的资源名。
+域名和端口号是本节课使用到的API中最重要的两个部分。他们被称为一个资源的“起源”。
+通常情况下，资源只能与来自同一起源的资源或信息进行交互：这被称为同源策略。
 
 ...
 ...
 
 CHOOSING A WEB SERVER
+选择一个网络服务器
 There are many web servers available, both commercial and open source. Many factors come into
 play when choosing a web server, but these discussions are beyond the scope of this book. It is,
 however, worth mentioning that by far the most popular web server, almost since the advent of the
 World Wide Web, is the Apache web server.
+有很多可用的网络服务器，既有商业的也有开源的。
+当我们选择一个网络服务器是要考虑很多因素，但是这些讨论不在本书的范围之内。(但这些讨论超出了本书的范围。)
+
+然而，这是值得一提的目前为止最流行的网络服务器，几乎自从万维网问世以来，就是Apache网络服务器。
 
 Apache is an open source web server, and provides an excellent combination of stability, features,
 and performance. If you use a hosting service, they will almost certainly make the Apache web
 server available to you.
+Apache是一个开源的网络服务器，它提供一个有稳定性，特性和性能构成的优秀的联合体。
+如果你是用一个主机服务，他们几乎肯定会提供给你可以使用的Apache网络服务器。
 You will not use Apache in this book, mainly because it takes slightly more effort to install and con-
-fi gure than the web server you will use, but you may opt to use it if you choose. It can be accessed
-from  http://httpd.apache.org/ , and tutorials are available for guiding you through the installa-
-tion and confi guration process.
-In this book, you will use the Mongoose web server (free edition). The main reason for choosing
-this is its simplicity: It requires either very little or no confi guration and is therefore ideal during the
-development phase of your web application.
+figure than the web server you will use, but you may opt to use it if you choose. It can be accessed
+from  http://httpd.apache.org/ , and tutorials are available for guiding you through the installation and configuration process.
+
+本书中你不会使用Apache网络服务器，主要是因为它比你要使用的网络服务器需要花费稍微额外的努力去安装和配置，但如果你选择，你可以选择使用它。
+它可以被访问从http://httpd.apache.org/ ，并且有可用的教程来指导你从头到尾完成安装和配置的过程。
+
+In this book, you will use the Mongoose web server (free edition). The main reason for choosing this is its simplicity: 
+It requires either very little or no configuration and is therefore ideal during the development phase of your web application.
+
+本书中，你将会用到Mongoose网络服务器(免费版)。选择它的主要原因是它很简单：
+它需要很少或不用配置，因而，在你的网络应用程序的开发阶段是理想的。
+
 
 ...
 ...
 
 TRY IT
-In this Try It, you install and confi gure the Mongoose web server. This Try It contains two sets of
+试一试 
+In this Try It, you install and configure the Mongoose web server. This Try It contains two sets of
 steps, one for Windows and one for OS X.
 
-    NOTE  Linux source code is also available at:  http://code.google.com/p/
-    mongoose/downloads/list . To run this, the simplest option is to  cd to the
-    directory containing  contacts.html and run  mongoose . This runs in the
-    foreground so use  ctrl-C to stop.
+在这个试一试 ，你将安装和配置Mongoose网络服务器。这个试一试包含了两套步骤，一个用于Windows和一个用于OS X。
 
+    NOTE  Linux source code is also available at:  [http://code.google.com/p/mongoose/downloads/list](http://code.google.com/p/mongoose/downloads/list) . 
+	To run this, the simplest option is to  cd to the
+    directory containing  contacts.html and run  mongoose .
+	This runs in the foreground so use  ctrl-C to stop.
+	
+	注释 Linux 源代码也可以从http://code.google.com/p/mongoose/downloads/list获得。
+	为了运行它，最简单的选择是通过命令行打开contacts.html所在的目录，并且运行mongoose。
+	这是运行在前台的，所以所以Ctrl+C 来停止它。
 ...
 ...
 
 Lesson Requirements
-As part of the steps outlined next, you will need to download the Mongoose web server from the
-site listed. This will involve agreeing to the non–commercial license agreement. You will also need
-the Chrome web browser to test that the web server is working.
+
+As part of the steps outlined next, you will need to download the Mongoose web server from the site listed.
+This will involve agreeing to the non–commercial license agreement.
+You will also need the Chrome web browser to test that the web server is working.
+课程要求
+作为下一步的步骤的一部分，你需要从站点列表下载Mongoose网络服务器。
+这将会涉及接受非商业许可协议。同时你也需要个Chrome网络浏览器，用来测试网络服务器是否正常工作。
+ 
 Step-by-Step (OS X)
+一步接一步
+
 1. Download the Free Edition OS X installer from:  http://cesanta.com/downloads.html .
 This requires you to accept the license agreement.
+
 2. Once this has downloaded, double-click on the DMG fi le and drag it to Applications, just as
 you would when installing any other application.
+
 3. Open the Finder and navigate to the Applications folder. Find the Mongoose application, and
 double-click on the icon to start the Mongoose server.
-4. The Mongoose application can now be confi gured via the icon in the taskbar at the top of the
+
+4. The Mongoose application can now be configured via the icon in the taskbar at the top of the
 screen, as shown in Figure 29-1.
 [pic](url)
+4. 可以通过位于屏幕顶部任务栏上的小图标来配置Mongoose 应用程序，如图29-1中所示：
+[pic](url)
+FIGURE 29-1
 5. Select the Edit confi guration option. This will open a browser window with the confi guration
 settings. Locate the  document_root text fi eld, and change the directory to the directory that
 contains the  contacts.html fi le. For example  /Users/dane/html5/CRM . Once entered,
@@ -169,6 +205,7 @@ should show the main contacts web page.
 ...
 
 Step-by-Step (Windows)
+
 1. Download the Free Edition OS X installer from  http://cesanta.com/downloads.html .
 This requires you to accept the license agreement.
 2. Once the download is complete, copy the  .exe fi le to the same directory that contains
