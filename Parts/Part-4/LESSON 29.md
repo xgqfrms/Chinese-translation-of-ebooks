@@ -62,9 +62,11 @@ request to the appropriate server on the network.
 #### 网络服务器是负责用来解析URL(网址)和决定什么样的资源应该被返回。网址也被用于一些低级的协议，然而，主要是为了确定如何将请求路由到位于网络上的适当的服务器上。
 
 URLs are surprisingly complex, but the most familiar pattern is as follows:
+    http://testing.com:80/test1/test.html
+    
 #### URLs 是非常复杂的，但是最常用的模式是下面这样的：
     http://testing.com:80/test1/test.html
-    http://testing.com:80/test1/test.html
+
 
 This URL consists of the following components:
 #### 这个URL包含以下几个部分：
@@ -145,10 +147,10 @@ steps, one for Windows and one for OS X.
 
 #### 在这个试一试 ，你将安装和配置Mongoose网络服务器。这个试一试包含了两套步骤，一个用于Windows和一个用于OS X。
 
-    NOTE  Linux source code is also available at:  [http://code.google.com/p/mongoose/downloads/list](http://code.google.com/p/mongoose/downloads/list) . 
-	To run this, the simplest option is to  cd to the
+    NOTE  Linux source code is also available at: (http://code.google.com/p/mongoose/downloads/list) . 
+    To run this, the simplest option is to  cd to the
     directory containing  contacts.html and run  mongoose .
-	This runs in the foreground so use  ctrl-C to stop.
+    This runs in the foreground so use  ctrl-C to stop.
 	
 	注释 Linux 源代码也可以从http://code.google.com/p/mongoose/downloads/list获得。
 	为了运行它，最简单的选择是通过命令行打开contacts.html所在的目录，并且运行mongoose。
@@ -243,10 +245,10 @@ This should show the main contacts web page.
 
 #### 5. Mongoose 网络服务器运行在默认的8080端口，而不是80端口。因为它运行在你的本地机器上，你也可以使用主机名localhost。因此，要想打开通信录网页，打开chrome输入http://localhost:8080/contacts.html.
 
-    REFERENCE  Please go to the book’s website at  [www.wrox.com/go/html5jsj-query24hr](http://www.wrox.com/go/html5jsj-query24hrto) 
-	to view the video for Lesson 29, as well as download the code and resources for this lesson.
+    REFERENCE  Please go to the book’s website at [](http://www.wrox.com/go/html5jsj-query24hrto) 
+    to view the video for Lesson 29, as well as download the code and resources for this lesson.
 	
-	参考 请访问这本书的网站，在[www.wrox.com/go/html5jsj-query24hr](http://www.wrox.com/go/html5jsj-query24hrto)，
+	参考 请访问这本书的网站，在[](http://www.wrox.com/go/html5jsj-query24hrto)，
 	观看Lesson 29的视频，也可以下载本课的源代码和相关资源。
 
 
