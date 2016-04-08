@@ -1,1 +1,45 @@
 # LESSON 30: Web Storage
+...
+...
+
+Web Storage 
+网络存储
+
+When the World Wide Web was first envisioned, it was intended as a repository for static documents, primarily academic papers. 
+当万维网第一次出现的时候，是被用来做为一个仓库存储静态
+The key distinguishing feature of the World Wide Web was hyperlinks, which allowed one document to provide a link to another document, and therefore allowed convenient navigation from one piece of information to another.
+
+It wasn’t long before web pages started providing more advanced features, such as online shopping. This required web pages to dynamically respond to user interaction. 
+
+As you have seen, this was facilitated by technologies such as the DOM API, which allows a web page to be modifi ed after it was loaded.
+
+
+HTML and JavaScript could only take you so far, however. It still was not possible to create
+web pages or web applications that exhibited the features typically found in native desktop
+applications. For instance, web pages lacked the following capabilities:
+
+➤
+The ability to interact with the fi le system beyond the simple  file input type.
+
+➤
+The ability to store large amounts of data or confi guration information inside the
+browser (on the client).
+
+➤
+The ability to function without a network connection. Even if a page is cached inside a
+browser, it typically is not usable without a network connection.
+
+➤
+The ability to perform intensive processing on a background thread without impacting
+the user experience. Because all JavaScript processing occurs on a single thread, any
+intensive processing will cause the web page to “lock up.”
+
+➤
+The ability to request additional data from a server after a page had loaded without
+performing a refresh of the entire web page.
+
+You can think of these features as the services accessible to a software application. For a
+traditional desktop application, the operating system provides these services. Web pages
+cannot interact directly with the operating system; they can only interact with the browser.
+Therefore, unless the browser provided these services, web pages would always be constrained
+from achieving a higher level of sophistication.
